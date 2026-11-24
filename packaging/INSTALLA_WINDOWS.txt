@@ -1,0 +1,20 @@
+CHANNEL STRIP - Installazione su Windows
+========================================
+
+1. Chiudi il DAW (Reaper, Cubase, Ableton, FL Studio...).
+
+2. Copia la cartella "Channel Strip.vst3" (tutta la cartella) in:
+       C:\Program Files\Common Files\VST3\
+   Windows chiederà i permessi di amministratore: conferma.
+
+3. (Facoltativo, per Reaper o Bitwig) copia "Channel Strip.clap" in:
+       C:\Program Files\Common Files\CLAP\
+   Se la cartella CLAP non esiste, creala.
+
+4. Apri il DAW e fai una nuova scansione dei plugin.
+   In Reaper: Options > Preferences > Plug-ins > VST > "Re-scan".
+
+5. Cerca "Channel Strip" nell'elenco degli effetti.
+
+Nota: il plugin non è firmato digitalmente. Se Windows SmartScreen o
+l'antivirus mostrano un avviso, scegli "Ulteriori informazioni" > "Esegui comunque".

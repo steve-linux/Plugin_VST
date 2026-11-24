@@ -1,0 +1,16 @@
+CHANNEL STRIP - Installazione su macOS
+======================================
+
+1. Chiudi il DAW.
+
+2. Copia i plugin in queste cartelle (nel Finder: Vai > Vai alla cartella...):
+       Channel Strip.vst3       ->  ~/Library/Audio/Plug-Ins/VST3/
+       Channel Strip.component  ->  ~/Library/Audio/Plug-Ins/Components/   (Logic, GarageBand)
+       Channel Strip.clap       ->  ~/Library/Audio/Plug-Ins/CLAP/
+
+3. Il plugin non è firmato da Apple. Apri il Terminale ed esegui:
+       xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/VST3/"Channel Strip.vst3"
+       xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/Components/"Channel Strip.component"
+       xattr -dr com.apple.quarantine ~/Library/Audio/Plug-Ins/CLAP/"Channel Strip.clap"
+
+4. Apri il DAW e fai una nuova scansione dei plugin.

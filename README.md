@@ -41,6 +41,13 @@ Notes on the implementation:
 3. A/B compare, undo/redo, user presets, auto gain-match
 4. EQ curve editable directly on the analyzer, collapsible modules
 
+## Download
+
+Every push to `main` builds Windows, macOS and Linux versions with GitHub Actions
+(tab **Actions** → latest "Build" run → **Artifacts**). Pushing a tag like `v0.1.0`
+also creates a GitHub Release with the zip files. Each zip contains installation
+instructions (`INSTALLA_*.txt`).
+
 ## Build
 
 Requirements: CMake ≥ 3.22, a C++17 compiler, git. JUCE 8.0.9 and clap-juce-extensions are downloaded automatically.
