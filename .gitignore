@@ -1,0 +1,50 @@
+# Build output
+build/
+cmake-build-*/
+out/
+Builds/
+bin/
+obj/
+*.vst3/
+*.component/
+*.clap
+*.aaxplugin/
+
+# JUCE
+JuceLibraryCode/
+*.jucer.bak
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+compile_commands.json
+_deps/
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.user
+*.suo
+DerivedData/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
